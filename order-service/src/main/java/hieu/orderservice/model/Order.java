@@ -14,7 +14,6 @@ import lombok.*;
 @Builder
 public class Order {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String id;
     private String product;
     private double price;
